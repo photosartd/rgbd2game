@@ -11,7 +11,7 @@ Camera information extraction (extrinsics): [nerfstudio](https://docs.nerf.studi
 Training time: ~40 minutes
 
 Result:
-[Video](../data/video_rgb.mp4)
+[Video](../data/video_rgb_stat.mp4)
 ### P.S: main points
 1. Pretty easy to use framework (but we have problems with /homes directory ROM)
 2. Setting up takes time but the tutorials are easy to use
