@@ -8,6 +8,20 @@ What I've tried:
 4. [Moving scene - mid camera](../data/home-stat-mid.mp4) - **does not work**
 5. [Moving scene - end camera](../data/home-stat-end.mp4) - **does not work**
 
+### How to reproduce
+1. Clone [4DGaussian](https://github.com/hustvl/4DGaussians/tree/master) repository and install everything according to README.
+2. Train a needed model according to instructions.
+3. For rendering, there is a script `render.py` according to README. However, if you need to **render the scene from one
+arbitrary view** through all the timestamps $t$, put the script [render_arbitrary.py](../scripts/week27/render_arbitrary.py)
+in 4DGaussians repo alongside `render.py` file and use it in the same way:
+
+```python
+python render_arbitrary.py --model_path "output/dnerf/bouncingballs/"  --skip_train --configs arguments/dnerf/bouncingballs.py 
+```
+
+4. To change the camera view, find the row with `deepcopy(cameras[N])` in `render_arbitrary` script and change `N` to 
+needed camera index (not more than the number of frames in the video).
+
 ### Conclusion
 1. Dynamic scenes work (COLMAP can create them)
 2. Other camera positions for the current timestamp $t$ except for the main
