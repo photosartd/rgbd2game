@@ -9,3 +9,4 @@ at the University of Bielefeld.
 4. [Week 26: Gaussians4D - Splatting for Dynamic Scene Rendering](./updates/week26.md)
 5. [Week 27: Gaussians4D II - Dynamic Scenes with different Cameras](./updates/week27.md)
 6. [Week 28: Gaussians4D III - Flickering; 2D Gaussian Splatting - inference](updates/week28.md)
+7. [We3k 29: Gaussians4D IV - Point Clouds animation; 2DGS - standard model rendering](updates/week29.md)
