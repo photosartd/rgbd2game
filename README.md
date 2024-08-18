@@ -12,3 +12,4 @@ at the University of Bielefeld.
 7. [Week 29: Gaussians4D IV - Point Clouds animation; 2DGS - standard model rendering](updates/week29.md)
 8. [Week 30: Gaussians4D V - Clustering](updates/week30.md)
 9. [Week 31: Physically Embodied Gaussian Splatting](updates/week31.md)
+10. [Week 33: Segment Anything 2 for motion part estimation](updates/week33.md)
