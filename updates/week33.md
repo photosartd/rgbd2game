@@ -1,4 +1,5 @@
 # Week 33 (12.08.2024 - 19.08.2024):
+[Accompanying notebooks](../data/week33/notebooks/sam2)
 ## Steps
 1. phase 1: scan a static environment with a monocular camera and create a 3DGS model
    - Problem: Disk IO on minecraft (reboot?)
@@ -15,7 +16,7 @@
 5. phase 5: improve the model by / select best proposal based on photometric loss
 6. phase 6: improve the 3DGS model based on new frames from opening demonstration.
 ## SAM 2
-**Main properties:**с
+**Main properties:**
 1. Requires a prompt (positive/negative points, bounding box) of what to segment and track.
    1. Idea: prompt could be extracted from e.g. optical flow. Problem: the one who moves the object will also be in this
     optical flow.
@@ -30,10 +31,12 @@ object around (e.g. doors), can make mistakes:
 
 Other examples:
 **Laptop opening:**
+
 ![Laptop 0](../data/week33/laptop_0.png)
 ![Laptop 1](../data/week33/laptop_1.png)
 
 **Fridge opening and closing**:
+
 ![Fridge 0](../data/week33/fridge_opening_0.png)
 ![Fridge 1](../data/week33/fridge_opening_1.png)
 ![Fridge 2](../data/week33/fridge_opening_2.png)
