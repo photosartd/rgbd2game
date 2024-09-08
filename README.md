@@ -15,3 +15,4 @@ at the University of Bielefeld.
 10. [Week 33: Segment Anything 2 for motion part estimation](updates/week33.md)
 11. [Week 34: Lang SAM + SAM2](updates/week34.md)
 12. [Week 35: Grounded SAM2 + DepthAnything](updates/week35.md)
+13. [Week 36: planning + experiments](updates/week36.md)
