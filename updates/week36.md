@@ -1,4 +1,4 @@
-# Week 34 (02.09.2024 - 08.09.2024):
+# Week 36 (02.09.2024 - 08.09.2024):
 ## Plan
 1. Record a dynamic video from (first person view) how we go through a room, interact with easy objects ([laptop](../data/week36/recordings), microwave) in a specified predefined way (give a view from different cameras for the first state; interact with the object; give a view from different cameras for the second state)
 2. Use hand detection or other tools to automatically detect interaction.

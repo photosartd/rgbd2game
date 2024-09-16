@@ -16,3 +16,4 @@ at the University of Bielefeld.
 11. [Week 34: Lang SAM + SAM2](updates/week34.md)
 12. [Week 35: Grounded SAM2 + DepthAnything](updates/week35.md)
 13. [Week 36: planning + experiments](updates/week36.md)
+14. [Week 37: Gaussian Object + PARIS = Articulated Gaussian Object (idea)](updates/week37.md)
